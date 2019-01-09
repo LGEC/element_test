@@ -1,15 +1,16 @@
 <template>
 	<div class="home">
-		<h2>Demo</h2>
 		<ul>
 			<li>
 				<router-link to="layoutDemo">
 					Layout 布局
 				</router-link>
 			</li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li>
+				<router-link to="containerDemo">
+					Container 布局容器
+				</router-link>
+			</li>
 		</ul>
 	</div>
 </template>
